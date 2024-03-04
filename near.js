@@ -24,10 +24,10 @@ async function main() {
   };
   const nearConnection = await connect(connectionConfig);
   const account = await nearConnection.account("nvb.testnet");
-  await account.sendMoney(
-    "baunvb1.testnet", // receiver account
-    "10000000000000000000000" // amount in yoctoNEAR
-  );
+  // await account.sendMoney(
+  //   "baunvb1.testnet", // receiver account
+  //   "10000000000000000000000" // amount in yoctoNEAR
+  // );
   const bal = await account.getAccountBalance()
   console.log("balance: ", bal)
 
