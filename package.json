@@ -1,6 +1,6 @@
 {
   "name": "near-script",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,8 @@
     "cron": "^3.1.6",
     "dotenv": "^16.4.5",
     "near-api-js": "^3.0.2",
-    "web3": "^4.5.0"
+    "web3": "^4.5.0",
+    "olong-tea-v2": "1.1.1",
+    "olong-tea": "1.1.1"
   }
 }
